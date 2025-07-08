@@ -1,29 +1,29 @@
 :root {
-     --title-font: "Fredoka", sans-serif;
-     --body-font: "Inter", sans-serif;
+  --title-font: "Fredoka", sans-serif;
+  --body-font: "Inter", sans-serif;
 
-     --bg-lightblue: #e4f6fe;
-     --bg-lightpink: #fcdcea;
+  --bg-lightblue: #95b3e0;
+  --bg-lightpink: #f379a7;
 
-     --section-padding: 100px;
+  --section-padding: 100px;
 
-     --text-dark: #222;
-     --text-light: #666;
+  --text-dark: #222;
+  --text-light: #666;
 }
 
 /* -------------- common css start --------------- */
 
 body {
-     font-family: var(--body-font);
-     margin: 0;
-     padding: 0;
-     color: var(--text-dark);
-     background-color: #fff;
-     line-height: 1.6;
+  font-family: var(--body-font);
+  margin: 0;
+  padding: 0;
+  color: var(--text-dark);
+  background-color: #fff;
+  line-height: 1.6;
 }
 
-section {
-     padding: var(--section-padding) 0;
+.section-padd {
+  padding: var(--section-padding) 0;
 }
 
 h1,
@@ -31,53 +31,91 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-     font-family: var(--title-font);
-     margin: 0 0 20px;
-     line-height: 1.2;
+h6,
+a {
+  font-family: var(--title-font);
+  margin: 0 0 20px;
+  line-height: 1.2;
+   color: #252525;
 }
 
 .bg-blue {
-     background-color: var(--bg-lightblue);
+  background-color: var(--bg-lightblue);
 }
 
 .bg-pink {
-     background-color: var(--bg-lightpink);
+  background-color: var(--bg-lightpink);
 }
-
-
 
 /* -------------- common css end --------------- */
 /* -------------- header css start --------------- */
 
 .top-bar {
-     background-color: #f5f5f5;
-     padding: 13px 0px;
+  background-color: #f5f5f5;
+  padding: 13px 0px;
 }
-.form-icon img{
-     width: 25px;
-     height: 25px;
+.form-icon img {
+  width: 25px;
+  height: 25px;
 }
-.navbar{
-     padding: 30px 0px;
+.navbar {
+  padding: 30px 0px;
 }
+/* -------------- header css end --------------- */
+/* -------------- hero section  start --------------- */
 
-.best_kids{
-     width: 100%;
-     height: 100vh;
-     float: left;
-     background-image: url(images/image/bg-img.webp);
-     background-size: cover;
-     position: relative;
+.best_kids {
+  width: 100%;
+  height: auto;
+  float: left;
+  background-image: url(images/image/bg-img.webp);
+  background-size: cover;
+  position: relative;
 }
 
 .design-top {
-    width: 100%;
-    height: 34px;
- 
-    background-image: url(images/image/design.webp);
-    position: absolute;
-    top: 0;
-  
+  width: 100%;
+  height: 34px;
+  background-image: url(images/image/design.webp);
+  position: absolute;
+  top: 0;
 }
-/* -------------- header css end --------------- */
+.best_kids_content h1 {
+ 
+  font-size: 72px;
+}
+.best_kids_content h6 {
+  
+  font-size: 24px;
+}
+.btn-shop a {
+  color: #fff;
+  border: 0px;
+  line-height: 59px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 44px;
+}
+.btn-shop:hover {
+  background-color: var(--bg-lightblue);
+  transition: 0.3s;
+}
+.design-bottom {
+  width: 100%;
+  height: 157px;
+  background-image: url(images/image/cloud_img.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+}
+.best_kids_content {
+  margin-top: 60px;
+}
+.best_kids_boy-image {
+  background: url(images/image/boy-imge.webp) no-repeat right center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  margin-top: 60px;
+}
