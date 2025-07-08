@@ -34,9 +34,9 @@ h5,
 h6,
 a {
   font-family: var(--title-font);
-  margin: 0 0 20px;
+  margin: 0;
   line-height: 1.2;
-   color: #252525;
+  color: #252525;
 }
 
 .bg-blue {
@@ -81,11 +81,9 @@ a {
   top: 0;
 }
 .best_kids_content h1 {
- 
   font-size: 72px;
 }
 .best_kids_content h6 {
-  
   font-size: 24px;
 }
 .btn-shop a {
@@ -118,4 +116,48 @@ a {
   height: 100%;
   width: 100%;
   margin-top: 60px;
+}
+/* -------------- hero section  end --------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .best_kids_boy-image {
+    background: url(images/image/boy-imge.webp) no-repeat center;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .design-bottom {
+    width: 100%;
+    height: 156px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .best_kids {
+    width: 100%;
+    height: 266vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 }
