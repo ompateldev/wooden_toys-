@@ -2,8 +2,11 @@
   --title-font: "Fredoka", sans-serif;
   --body-font: "Inter", sans-serif;
 
-  --bg-lightblue: #95b3e0;
-  --bg-lightpink: #f379a7;
+  --bg-blue: #95b3e0;
+  --bg-pink: #f379a7;
+
+  --bg-lightpink: #fcdcea;
+  --bg-light:  #e4f6fe;
 
   --section-padding: 100px;
 
@@ -40,11 +43,18 @@ a {
 }
 
 .bg-blue {
-  background-color: var(--bg-lightblue);
+  background-color: var(--bg-blue);
 }
 
 .bg-pink {
+  background-color: var(--bg-pink);
+}
+
+.bg-lightpink {
   background-color: var(--bg-lightpink);
+}
+.bg-light {
+  background-color: var(--bg-light);
 }
 
 /* -------------- common css end --------------- */
@@ -95,7 +105,7 @@ a {
   padding: 0 44px;
 }
 .btn-shop:hover {
-  background-color: var(--bg-lightblue);
+  background-color: var(--bg-blue);
   transition: 0.3s;
 }
 .design-bottom {
@@ -105,7 +115,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 }
 .best_kids_content {
   margin-top: 60px;
@@ -118,31 +128,25 @@ a {
   margin-top: 60px;
 }
 /* -------------- hero section  end --------------- */
+/* -------------- product-category start --------------- */
+
+.product-category {
+  width: 100%;
+  height: auto;
+  float: left;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* -------------- product-category end --------------- */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .best_kids_boy-image {
     background: url(images/image/boy-imge.webp) no-repeat center;
     background-size: contain;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
-    margin-top: 100px;
   }
 
   .design-bottom {
