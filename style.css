@@ -8,7 +8,7 @@
   --bg-lightpink: #fcdcea;
   --bg-light: #e4f6fe;
 
-  --section-padding: 10gitgit0px 0px;
+  --section-padding: 50px 0px;
 
   --text-dark: #222;
   --text-light: #666;
@@ -26,7 +26,7 @@ body {
 }
 
 .section-padd {
-  padding: var(--section-padding) 0;
+  padding: var(--section-padding);
 }
 
 h1,
@@ -159,7 +159,39 @@ a {
   height: auto;
   float: left;
 }
+/* -------------- New Products end --------------- */
 /* -------------- New Products start --------------- */
+.the_day {
+  width: 100%;
+  height: 100vh;
+  float: left;
+  background-image: url("images/image/the_day_background.webp");
+  position: relative;
+}
+.the_day-img_left {
+  width: 100%;
+  height: 84vh;
+  background: url("images/image/The_Day_boy.webp") no-repeat center;
+  background-size: contain;
+}
+.the_day-img_right {
+  width: 100%;
+  height: 100vh;
+  background: url("images/image/The_Day_girl.webp") no-repeat center;
+  background-size: contain;
+}
+.the_day-design-bottom {
+  width: 100%;
+  height: 34px;
+  background-image: url("images/image/the_day_bottom.webp");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+}
+.deal_of_the_day_content span {
+  color: var(--bg-pink);
+}
+/* -------------- New Products end --------------- */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -181,13 +213,23 @@ a {
     width: 100%;
     height: 266vh;
   }
-}
-.new_product_info h5 p {
-  color: #3b3a2b!important;
-  font-family: "Rubik", sans-serif;
-  font-weight: 500;
-}
 
+  .new_product_info h5 p {
+    color: #3b3a2b !important;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  }
+
+  .the_day {
+    width: 100%;
+    height: 50vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
