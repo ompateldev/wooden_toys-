@@ -125,7 +125,7 @@ a {
   background-size: contain;
   height: 100%;
   width: 100%;
-  /* margin-top: 60px; */
+  margin-top: 75px;
 }
 /* -------------- hero section  end --------------- */
 /* -------------- product-category start --------------- */
@@ -251,36 +251,81 @@ a {
   transform: scale(1.1);
 }
 
-
 .text-pink {
   color: #f55cab;
 }
-.btn-read:hover{
-background: var(--bg-pink);
+.btn-read:hover {
+  background: var(--bg-pink);
 }
 
 /* -------------- latest blog end --------------- */
+/* -------------- footer start --------------- */
+.footer {
+  width: 100%;
+  float: left;
+  background-color: #302e2e;
+  color: #fff;
+  background-image: url("images/image/the_day_background.webp");
+}
+
+.footer .social-icons img {
+  color: white;
+  width: 25px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.footer .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer .logo img {
+  width: 150px;
+  height: auto;
+}
+
+.footer .payment-icons img {
+  width: 200px;
+  margin-right: 5px;
+}
+
+.list li a {
+  color: #e4e4e4;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #212121;
+  padding: 12px 0;
+}
+/* -------------- footer end --------------- */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .best_kids_content h1 {
+    font-size: 58px;
+  }
   .best_kids_boy-image {
-    background: url(images/image/boy-imge.webp) no-repeat center;
+    /* background: url(images/image/boy-imge.webp) no-repeat center; */
     background-size: contain;
-    height: 80vh;
+    height: 49vh;
     width: 100%;
   }
 
   .design-bottom {
     width: 100%;
-    height: 156px;
+    height: 100px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .best_kids {
+  /* .best_kids {
     width: 100%;
-    height: 266vh;
-  }
+    height: 149vh;
+  } */
 
   .new_product_info h5 p {
     color: #3b3a2b !important;
