@@ -8,7 +8,7 @@
   --bg-lightpink: #fcdcea;
   --bg-light: #e4f6fe;
 
-  --section-padding: 50px 0px;
+  --section-padding: 60px 0px;
 
   --text-dark: #222;
   --text-light: #666;
@@ -78,7 +78,7 @@ a {
   width: 100%;
   height: auto;
   float: left;
-  background-image: url(assets/image/bg-img.webp);
+  background-image: url("../image/bg-img.webp");
   background-size: cover;
   position: relative;
 }
@@ -86,7 +86,7 @@ a {
 .design-top {
   width: 100%;
   height: 34px;
-  background-image: url(assets/image/design.webp);
+  background-image: url(../image/design.webp);
   position: absolute;
   top: 0;
 }
@@ -110,22 +110,21 @@ a {
 }
 .design-bottom {
   width: 100%;
-  height: 157px;
-  background-image: url(assets/image/cloud_img.webp);
+  height: 155px;
+  background-image: url(../image/cloud_img.webp);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: -1px;
+  bottom: 0px;
 }
 .best_kids_content {
   margin-top: 60px;
 }
 .best_kids_boy-image {
-  background: url(assets/image/boy-imge.webp) no-repeat right center;
+  background: url(../image/boy-imge.webp) no-repeat right center;
   background-size: contain;
   height: 100%;
   width: 100%;
-  margin-top: 75px;
 }
 /* -------------- hero section  end --------------- */
 /* -------------- product-category start --------------- */
@@ -165,25 +164,25 @@ a {
   width: 100%;
   height: 100vh;
   float: left;
-  background-image: url("assets/image/the_day_background.webp");
+  background-image: url("../image/the_day_background.webp");
   position: relative;
 }
 .the_day-img_left {
   width: 100%;
-  height: 84vh;
-  background: url("assets/image/The_Day_boy.webp") no-repeat center;
+  height: 80vh;
+  background: url("../image/The_Day_boy.webp") no-repeat center;
   background-size: contain;
 }
 .the_day-img_right {
   width: 100%;
   height: 100vh;
-  background: url("assets/image/The_Day_girl.webp") no-repeat center;
+  background: url("../image/The_Day_girl.webp") no-repeat center;
   background-size: contain;
 }
 .the_day-design-bottom {
   width: 100%;
   height: 34px;
-  background-image: url("assets/image/the_day_bottom.webp");
+  background-image: url("../image/the_day_bottom.webp");
   background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
@@ -265,7 +264,7 @@ a {
   float: left;
   background-color: #302e2e;
   color: #fff;
-  background-image: url("assets/image/the_day_background.webp");
+  background-image: url("../image/the_day_background.webp");
 }
 
 .footer .social-icons img {
@@ -305,7 +304,18 @@ a {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .best_kids_content h1 {
-    font-size: 58px;
+    font-size: 40px;
+  }
+  .best_kids_content h6 {
+    font-size: 20px;
+  }
+  .btn-shop a {
+    color: #fff;
+    border: 0px;
+    line-height: 46px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0px 22px;
   }
   .best_kids_boy-image {
     /* background: url(images/image/boy-imge.webp) no-repeat center; */

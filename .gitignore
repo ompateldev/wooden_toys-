@@ -1,0 +1,10 @@
+# VS Code settings
+.vscode/
+
+# Node modules or vendor folders (if any)
+node_modules/
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
