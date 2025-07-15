@@ -8,7 +8,7 @@
   --bg-lightpink: #fcdcea;
   --bg-light: #e4f6fe;
 
-  --section-padding: 60px 0px;
+  --section-padding: 70px 0px;
 
   --text-dark: #222;
   --text-light: #666;
@@ -358,6 +358,73 @@ a {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* -----------------about section start------------------------- */
+
+.about_section {
+  width: 100%;
+  height: 60vh;
+  float: left;
+  position: relative;
+  background-color: #95b3e0;
 }
+.about_content h2 {
+  font-size: 72px;
+}
+.about_content a {
+  font-size: 16px;
+}
+/* -----------------hello there! section start------------------------- */
+.hello_there {
+  width: 100%;
+  height: auto;
+  float: left;
+  position: relative;
+}
+.hello_there .about_hello_img {
+  background: url("../image/about/about_imge.webp") no-repeat center;
+  background-size: contain;
+  min-height: 450px; /* Desktop & tablet ke liye */
+}
+.about_hello_img2 {
+  background: url(../image/car_imge.webp) no-repeat center;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  width: 9%;
+  top: 149px;
+  left: 31%;
+}
+
+.about_hello_content .about_hello_title {
+  font-size: 36px;
+  margin-bottom: 22px;
+}
+.about_hello_content h5 {
+  font-size: 30px;
+  line-height: 43px;
+  margin-bottom: 20px;
+}
+.about_btn {
+  color: #fff5ec;
+
+  font-size: 16px;
+  line-height: 50px;
+  padding: 5px 57.42px;
+}
+/* -----------------hello there! section end------------------------- */
+/* -----------------brand logo there! section start------------------------- */
+.brand_logo {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+/* -----------------brand logo there! section end------------------------- */
+/* -----------------team section start------------------------- */
+.team {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+
+/* -----------------team section end------------------------- */
