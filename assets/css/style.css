@@ -162,14 +162,14 @@ a {
 /* -------------- New Products start --------------- */
 .the_day {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   float: left;
   background-image: url("../image/the_day_background.webp");
   position: relative;
 }
 .the_day-img_left {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background: url("../image/The_Day_boy.webp") no-repeat center;
   background-size: contain;
 }
@@ -302,7 +302,7 @@ a {
 /* -------------- footer end --------------- */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (min-width: 577px) and (max-width: 767px) {
   .best_kids_content h1 {
     font-size: 40px;
   }
@@ -425,6 +425,12 @@ a {
   height: auto;
   float: left;
 }
-
+.imgeteam {
+  background-color: #95b3e0;
+  border-radius: 10px;
+  height: 321px;
+  position: relative;
+  margin-bottom: 35px;
+}
 
 /* -----------------team section end------------------------- */
