@@ -497,3 +497,19 @@ a {
   bottom: -1px;
 }
 /* -----------------testimonial section end------------------------- */
+
+/* -----------------product section start------------------------- */
+.product_section {
+  width: 100%;
+  height: 60vh;
+  float: left;
+  position: relative;
+  background-color: #95b3e0;
+}
+.product_section_content h2 {
+  font-size: 72px;
+}
+.product_section_content a {
+  font-size: 16px;
+}
+/* -----------------product section end------------------------- */
