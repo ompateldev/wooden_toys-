@@ -53,6 +53,7 @@ a {
 .bg-lightpink {
   background-color: var(--bg-lightpink);
 }
+
 .bg-lightblue {
   background-color: var(--bg-light);
 }
@@ -64,13 +65,16 @@ a {
   background-color: #f5f5f5;
   padding: 13px 0px;
 }
+
 .form-icon img {
   width: 25px;
   height: 25px;
 }
+
 .navbar {
   padding: 30px 0px;
 }
+
 /* -------------- header css end --------------- */
 /* -------------- hero section  start --------------- */
 
@@ -90,12 +94,15 @@ a {
   position: absolute;
   top: 0;
 }
+
 .best_kids_content h1 {
   font-size: 72px;
 }
+
 .best_kids_content h6 {
   font-size: 24px;
 }
+
 .btn-shop a {
   color: #fff;
   border: 0px;
@@ -104,10 +111,12 @@ a {
   font-size: 16px;
   padding: 0 44px;
 }
+
 .btn-shop:hover {
   background-color: var(--bg-blue);
   transition: 0.3s;
 }
+
 .design-bottom {
   width: 100%;
   height: 155px;
@@ -117,15 +126,18 @@ a {
   position: absolute;
   bottom: 0px;
 }
+
 .best_kids_content {
   margin-top: 60px;
 }
+
 .best_kids_boy-image {
   background: url(../image/boy-imge.webp) no-repeat right center;
   background-size: contain;
   height: 100%;
   width: 100%;
 }
+
 /* -------------- hero section  end --------------- */
 /* -------------- product-category start --------------- */
 
@@ -134,22 +146,27 @@ a {
   height: auto;
   float: left;
 }
+
 .product_content:hover {
   transform: scale(1.05);
   transition: 0.3s;
   background-color: var(--bg-light);
 }
+
 .product_content {
   position: relative;
 }
+
 .product_image {
   position: relative;
   left: 47px;
 }
+
 .product_info {
   position: absolute;
   left: 15px;
 }
+
 /* -------------- product-category end --------------- */
 
 /* -------------- New Products start --------------- */
@@ -158,6 +175,7 @@ a {
   height: auto;
   float: left;
 }
+
 /* -------------- New Products end --------------- */
 /* -------------- New Products start --------------- */
 .the_day {
@@ -167,18 +185,21 @@ a {
   background-image: url("../image/the_day_background.webp");
   position: relative;
 }
+
 .the_day-img_left {
   width: 100%;
   height: 100vh;
   background: url("../image/The_Day_boy.webp") no-repeat center;
   background-size: contain;
 }
+
 .the_day-img_right {
   width: 100%;
   height: 100vh;
   background: url("../image/The_Day_girl.webp") no-repeat center;
   background-size: contain;
 }
+
 .the_day-design-bottom {
   width: 100%;
   height: 34px;
@@ -187,9 +208,11 @@ a {
   position: absolute;
   bottom: 0;
 }
+
 .deal_of_the_day_content span {
   color: var(--bg-pink);
 }
+
 /* -------------- New Products end --------------- */
 /* -------------- collection start --------------- */
 .collection {
@@ -208,6 +231,7 @@ a {
   border-radius: 15px;
   right: -10%;
 }
+
 .btn-collection {
   padding: 10px 20px;
   color: #fff;
@@ -217,6 +241,7 @@ a {
   transform: scale(1.1);
   transition: transform 0.9s ease;
 }
+
 .image-wrapper {
   overflow: hidden;
 }
@@ -235,6 +260,7 @@ a {
   height: auto;
   float: left;
 }
+
 /* Image scale on hover */
 .image-wrapper {
   overflow: hidden;
@@ -253,6 +279,7 @@ a {
 .text-pink {
   color: #f55cab;
 }
+
 .btn-read:hover {
   background: var(--bg-pink);
 }
@@ -299,16 +326,19 @@ a {
   background-color: #212121;
   padding: 12px 0;
 }
+
 /* -------------- footer end --------------- */
 
 /* Extra small devices (phones, 600px and down) */
-@media (min-width: 577px) and (max-width: 767px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .best_kids_content h1 {
     font-size: 40px;
   }
+
   .best_kids_content h6 {
     font-size: 20px;
   }
+
   .btn-shop a {
     color: #fff;
     border: 0px;
@@ -317,6 +347,7 @@ a {
     font-size: 14px;
     padding: 0px 22px;
   }
+
   .best_kids_boy-image {
     /* background: url(images/image/boy-imge.webp) no-repeat center; */
     background-size: contain;
@@ -356,6 +387,7 @@ a {
   .overlay-text {
     right: -85px;
   }
+
 }
 
 /* -----------------about section start------------------------- */
@@ -369,12 +401,15 @@ a {
   position: relative;
   background-color: #95b3e0;
 }
+
 .about_content h2 {
   font-size: 72px;
 }
+
 .about_content a {
   font-size: 16px;
 }
+
 /* -----------------hello there! section start------------------------- */
 .hello_there {
   width: 100%;
@@ -382,11 +417,14 @@ a {
   float: left;
   position: relative;
 }
+
 .hello_there .about_hello_img {
   background: url("../image/about/about_imge.webp") no-repeat center;
   background-size: contain;
-  min-height: 450px; /* Desktop & tablet ke liye */
+  min-height: 450px;
+  /* Desktop & tablet ke liye */
 }
+
 .about_hello_img2 {
   background: url(../image/car_imge.webp) no-repeat center;
   background-size: contain;
@@ -401,11 +439,13 @@ a {
   font-size: 36px;
   margin-bottom: 22px;
 }
+
 .about_hello_content h5 {
   font-size: 30px;
   line-height: 43px;
   margin-bottom: 20px;
 }
+
 .about_btn {
   color: #fff5ec;
 
@@ -413,6 +453,7 @@ a {
   line-height: 50px;
   padding: 5px 57.42px;
 }
+
 /* -----------------hello there! section end------------------------- */
 /* -----------------brand logo there! section start------------------------- */
 .brand_logo {
@@ -420,6 +461,7 @@ a {
   height: auto;
   float: left;
 }
+
 /* -----------------brand logo there! section end------------------------- */
 /* -----------------team section start------------------------- */
 .team {
@@ -427,22 +469,26 @@ a {
   height: auto;
   float: left;
 }
+
 .imgeteam {
-  /* background-color: #95b3e0; */
-  border-radius: 10px;
   position: absolute;
   bottom: 0px;
-  left: 11%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
 }
+
 .team_img {
   position: relative;
   width: 100%;
   height: 300px;
   border-radius: 10px;
 }
+
 .team_row {
   margin-top: 130px;
 }
+
 .team_img:hover {
   background-color: var(--bg-pink);
   transition: all 0.3s ease-in-out;
@@ -459,13 +505,16 @@ a {
   background-color: #c0dfe8;
   position: relative;
 }
+
 .testimonial .testimonial_title h6 {
   color: #2d2d2d;
 }
+
 .testimonial .testimonial-content h2 {
   font-size: 36px;
   margin-bottom: 20px;
 }
+
 .testimonial-content {
   background-color: #fff;
   border-radius: 10px;
@@ -473,12 +522,14 @@ a {
   overflow: hidden;
   padding: 32px 18px 31px 30px;
 }
+
 .testimonial-symbol {
   position: absolute;
   width: 71px;
   top: 0;
   left: 0;
 }
+
 .testimonial-content p {
   color: #2d2d2d;
   font-size: 16px;
@@ -487,6 +538,7 @@ a {
   position: relative;
   z-index: 1;
 }
+
 .about_img_bottom {
   width: 100%;
   height: 156px;
@@ -496,6 +548,7 @@ a {
   position: absolute;
   bottom: -1px;
 }
+
 /* -----------------testimonial section end------------------------- */
 
 /* -----------------product section start------------------------- */
@@ -506,10 +559,66 @@ a {
   position: relative;
   background-color: #95b3e0;
 }
+
 .product_section_content h2 {
   font-size: 72px;
 }
+
 .product_section_content a {
   font-size: 16px;
 }
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .imgeteam {
+
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 192px;
+    transform: translateX(-50%);
+  }
+  .team_row {
+    margin-top: 0px;
+}
+}
+
+
 /* -----------------product section end------------------------- */
+/* -----------------product list start------------------------ */
+.product_list {
+  width: 100%;
+  height: auto;
+  float: left;
+
+}
+
+/* -----------------product list end------------------------ */
+/* ----------------floting icon start------------------------ */
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  background-color: var(--bg-blue);
+  color: white;
+  padding: 12px 15px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  display: none;
+  /* Start hidden */
+  transition: all 0.3s ease;
+}
+
+.back-to-top img{
+  width: 20px;
+  height: 20px; 
+}
+.back-to-top:hover {
+  background-color: var(--bg-pink);
+}
+
+/* ----------------floting icon end------------------------ */
