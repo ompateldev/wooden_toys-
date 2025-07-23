@@ -55,58 +55,52 @@
 
         <nav class="navbar border border-bottom navbar-expand-lg bg-white">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="assets/image/logokidol.webp" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html"><img src="assets/image/logokidol.webp" alt=""></a>
+                <!-- Navbar Toggler Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 gap-3  mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" href="index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active fw-bold" aria-current="page" href="about.html">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" href="product.html">PRODUCTS</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fw-bold d-flex align-items-center gap-1" href="#"
-                                id="pageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                PAGE
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="pageDropdown">
-                                <li><a class="dropdown-item" href="#">Page 1</a></li>
-                                <li><a class="dropdown-item" href="#">Page 2</a></li>
-                                <li><a class="dropdown-item" href="#">Page 3</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fw-bold d-flex align-items-center gap-1" href="#"
-                                id="shopDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                SHOP
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="shopDropdown">
-                                <li><a class="dropdown-item" href="product.html">All Products</a></li>
-                                <li><a class="dropdown-item" href="#">New Arrivals</a></li>
-                                <li><a class="dropdown-item" href="#">Best Sellers</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#">BLOG</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex form-icon" role="search">
-                        <button class=" border-0 bg-transparent me-2" type="submit"><img src="assets/icons/heart.svg"
-                                class="img-fluid" alt=""></button>
-                        <button class=" border-0 bg-transparent " type="submit"><img src="assets/icons/cart4.svg"
-                                class="img-fluid" alt=""></button>
-                    </form>
+
+                <!-- Offcanvas Sidebar -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="index.html"><img
+                                    src="assets/image/logokidol.webp" alt=""></a></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active fw-bold" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link fw-bold" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item dropdown mx-2">
+                                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PRODUCTS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="product.html">All Products</a></li>
+                                    <li><a class="dropdown-item" href="product_details.html">product details</a></li>
+                                    <li><a class="dropdown-item" href="#">Category 2</a></li>
+                                    <!-- Add more categories as needed -->
+                                </ul>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link fw-bold" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex form-icon " role="search">
+                            <button class="border-0 bg-transparent me-2" type="submit"><img src="assets/icons/heart.svg"
+                                    class="img-fluid" alt=""></button>
+                            <button class="border-0 bg-transparent" type="submit"><img src="assets/icons/cart4.svg"
+                                    class="img-fluid" alt=""></button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -327,6 +321,26 @@
         </div>
         <div class="about_img_bottom"></div>
     </section>
+
+    <section class="subscribe section-padd">
+        <div class="container">
+            <div class="subscribe_content d-flex align-items-center rounded-4">
+                <div class="row w-100">
+                    <div class="col-lg-6 col-12 mb-3 mb-lg-0">
+                        <h2 class="text-white fw-bold fs-1">Subscribe for Exclusive Sales & News</h2>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <form class="d-flex flex-column flex-sm-row align-items-center gap-2">
+                            <input type="email" placeholder="Enter your email" class="form-control rounded-pill px-4"
+                                required>
+                            <button type="submit" class="btn btn-pink rounded-pill py-2 px-4">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!----------------- footer start ---------------------->
 
