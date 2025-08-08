@@ -767,3 +767,66 @@ a {
 
 
 /* ----------------product details end------------------------ */
+.contact-cards-section {
+  width: 100%;
+  float: left;
+  background: white;
+}
+
+.contact-cards-container {
+  background: #fbfbfb;
+}
+.map-section{
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+.quest-section{
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+
+.quest-form {
+  /* background: white; */
+  border-radius: 15px;
+  padding: 40px;
+  /* box-shadow: 0 4px 20px rgba(0,0,0,0.1); */
+  margin: 0 auto;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 2px solid #e9ecef;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.form-control:focus {
+  border-color: var(--bg-pink);
+  box-shadow: none;
+}
+
+.btn-send {
+  background: linear-gradient(45deg, #e91e63, #f06292);
+  border: none;
+  border-radius: 25px;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-send:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(233, 30, 99, 0.3);
+}
+
+.quest-form .quest-form-h1 {
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
